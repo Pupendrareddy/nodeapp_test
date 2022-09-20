@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: upe123/nodeapp:14
+        image: upe123/nodeapp:latest
         ports:
         - containerPort: 3000
         
