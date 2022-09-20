@@ -1,0 +1,16 @@
+const express = reqire('express')
+const app = express()
+
+app.get('/', function (req, res) {
+    res.send('{"rsponse": "Hello From upe123"}');
+});
+
+app.get('/will', function (req, res) {
+    res.send('{"response": "Hello world"}');
+});
+
+app.get('/ready', function (req, res) {
+    res.send('{"response": "Great!, It works!"}');
+});
+app.listen(process.env.PORT || 3000);
+modulle.exports = app;
